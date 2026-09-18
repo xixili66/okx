@@ -5,7 +5,7 @@ https://github.com/xixili66/okx-
 里边加了近十个左右的公式
 bug应该不多，修过的在后几个版本可以找我要
 我有个小网站可以看看
-www.205374844.my3v.work/guide.html
+www.qq205374844.my3v.work/guide.html
 最开始做的老垃圾了，后续到时候在把最新的放网站里网站里的版本0.2
 目前放出来的是v9
 然后有什么想法欢迎和我聊聊
