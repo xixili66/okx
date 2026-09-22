@@ -250,17 +250,6 @@ OKXBot  使用说明
     quant_core.py         数学公式库（39 项自检）
     regime_engine.py      周期节点引擎（25 项自检）
     regime_config.json    打包时内嵌的那份配置
-    build_exe.py / .bat   发版一条龙（需装了 okx SDK 的 Python 3.11）
-
-  改完源码后重新打包：运行 build_exe.py（或双击 build_exe.bat），
-  它会自动完成：源码自检 → 打包 → exe 自检 → 只读报告复核 → 收尾。
-  任何一环失败都会中止，不会发布有问题的构建。
-
-  产物只留在 dist\ 目录，**不再往桌面放**（2026-09-17 起）。
-  需要桌面副本时才加参数：build_exe.py --desktop
-  历史版本（OKXBot_v*.exe）一律保留，想回退直接跑 dist 里的旧版即可。
-  重新打包同一版本时，旧产物会自动挪到 dist\_parked\（该目录可随时清空）。
-  build_exe.py 顶部有 TOOL_VERSION，启动第一行会打印，便于确认脚本本身是哪版。
 
   日常使用完全不用管这些，exe 是自足的。
 
